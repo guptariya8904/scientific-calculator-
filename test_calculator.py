@@ -14,7 +14,8 @@ class TestCalculator(unittest.TestCase):
     def test_complex_expression(self):
         sum_result = add(5, 5)
         final_result = power(sum_result, 2)
-        self.assertEqual(final_result, 100)
+      
+        self.assertEqual(final_result, 200)   # wrong on purpose
 
 if __name__ == '__main__':
     unittest.main()
