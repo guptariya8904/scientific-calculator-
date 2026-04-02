@@ -15,7 +15,7 @@ class TestCalculator(unittest.TestCase):
         sum_result = add(5, 5)
         final_result = power(sum_result, 2)
       
-        self.assertEqual(final_result, 200)   # wrong on purpose
+        self.assertEqual(final_result, 100)  
 
 if __name__ == '__main__':
     unittest.main()
